@@ -1,4 +1,3 @@
-
 package main;
 
 import java.util.ArrayList;
@@ -122,7 +121,6 @@ public class AgenciaBancaria {
         int numeroConta = input.nextInt();
 
         Conta conta = encontrarConta(numeroConta);
-
         if(conta != null) {
             System.out.println("Qual valor deseja sacar? ");
             Double valorSaque = input.nextDouble();
